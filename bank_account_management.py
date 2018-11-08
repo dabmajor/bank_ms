@@ -2,12 +2,12 @@
 # main program file for fictitious bank account management system
 #
 
-BANK_NAME = "Major Bank"
+BANK_NAME = "Excellent Bank"
 
 
 def main():
     welcome()
-    myaccount = Account("Brandon", 1000)
+    myaccount = Account("Brian", 1000)
     print(myaccount.balance, myaccount.owner)
     myaccount.deposit(500)
     myaccount.withdrawal(250)
